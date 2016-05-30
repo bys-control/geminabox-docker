@@ -1,0 +1,6 @@
+geminabox:
+  build: .
+  ports:
+    - "9292:9292"
+  volumes:
+    - "/srv/docker/geminabox/:/var/geminabox-data/"
