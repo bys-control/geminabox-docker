@@ -1,4 +1,4 @@
-FROM ruby:2.3.0-onbuild
+FROM ruby:2.4.3-onbuild
 RUN mkdir data
 EXPOSE 9292
 
