@@ -1,42 +1,41 @@
 GEM
   remote: https://rubygems.org/
   specs:
+    base64 (0.2.0)
     builder (3.2.4)
-    faraday (1.0.1)
-      multipart-post (>= 1.2, < 3)
-    geminabox (1.4.1)
+    faraday (2.7.12)
+      base64
+      faraday-net_http (>= 2.0, < 3.1)
+      ruby2_keywords (>= 0.0.4)
+    faraday-net_http (3.0.2)
+    geminabox (2.1.0)
       builder
-      faraday
+      faraday (> 1.0, < 3.0)
       httpclient (>= 2.2.7)
       nesty
       reentrant_flock
-      rss
-      sinatra (>= 1.2.7)
+      sinatra (~> 2.0)
     httpclient (2.8.3)
-    multipart-post (2.1.1)
-    mustermann (1.1.1)
+    mustermann (2.0.2)
       ruby2_keywords (~> 0.0.1)
     nesty (1.0.2)
-    rack (2.2.3)
-    rack-protection (2.1.0)
+    rack (2.2.8)
+    rack-protection (2.2.4)
       rack
     reentrant_flock (0.1.1)
-    rexml (3.2.5)
-    rss (0.2.9)
-      rexml
     ruby2_keywords (0.0.5)
-    sinatra (2.1.0)
-      mustermann (~> 1.0)
+    sinatra (2.2.4)
+      mustermann (~> 2.0)
       rack (~> 2.2)
-      rack-protection (= 2.1.0)
+      rack-protection (= 2.2.4)
       tilt (~> 2.0)
-    tilt (2.0.10)
+    tilt (2.3.0)
 
 PLATFORMS
-  ruby
+  x86_64-linux
 
 DEPENDENCIES
-  geminabox (= 1.4.1)
+  geminabox (= 2.1.0)
 
 BUNDLED WITH
-   1.17.3
+   2.4.10

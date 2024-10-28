@@ -1,4 +1,4 @@
 source 'https://rubygems.org'
 
-gem 'geminabox', '1.4.1'
-
+gem 'geminabox', '2.1.0'
+gem 'webrick'
